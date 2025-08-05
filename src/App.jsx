@@ -1,10 +1,9 @@
-import Hello from "./Hello";
+import Cicle from "./Circle";
 function App() {
   return (
     <>
-      <Hello></Hello>
-      <Hello></Hello>
-      <Hello></Hello>
+      <Cicle size="50px" bg="red"></Cicle>
+      <Cicle size="50px" bg="blue"></Cicle>
     </>
   );
 }
