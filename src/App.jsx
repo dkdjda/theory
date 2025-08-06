@@ -1,9 +1,24 @@
-import Cicle from "./Circle";
+import { Apple, Dribbble, Facebook, Twitch } from "lucide-react";
+import SocialLogin from "./SocialLogin";
 function App() {
   return (
     <>
-      <Cicle size="50px" bg="red"></Cicle>
-      <Cicle size="50px" bg="blue"></Cicle>
+      <SocialLogin
+        bg="Facebook"
+        icon={<Facebook />}
+        social={"Facebook"}
+      ></SocialLogin>
+      <SocialLogin bg="Apple" icon={<Apple />} social={"Apple"}></SocialLogin>
+      <SocialLogin
+        bg="Dribbble"
+        icon={<Dribbble />}
+        social={"Facebook"}
+      ></SocialLogin>
+      <SocialLogin
+        bg="Twitch"
+        icon={<Twitch />}
+        social={"Twitch"}
+      ></SocialLogin>
     </>
   );
 }
